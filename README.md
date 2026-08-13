@@ -1,8 +1,11 @@
-# API and Data Processing Tasks
+# Accuknox Assignments
 
-This repository contains three Python tasks demonstrating API data retrieval, data processing, visualization, and database operations.
+This repository contains the Accuknox assignment work. The `AIML` folder holds three
+Python tasks demonstrating API data retrieval, data processing, visualization, and
+database operations. The `PM-tasks` folder holds the product management assignment
+material.
 
-## Tasks
+## AIML Tasks
 
 ### 1. API Data Retrieval and Storage
 - Fetches book data from an external REST API.
@@ -32,19 +35,23 @@ This repository contains three Python tasks demonstrating API data retrieval, da
 ## Repository Structure
 
 ```text
-API-Data-Processing-Tasks/
+Accuknox-Assignments/
 │
-├── Task1_API_Data_Retrieval/
-│   ├── task1_books.py
-│   └── books.db
+├── AIML/
+│   ├── Task1_API_Data_Retrieval/
+│   │   ├── task1_books.py
+│   │   └── books.db
+│   │
+│   ├── Task2_Data_Processing_Visualization/
+│   │   └── task2_student_scores.py
+│   │
+│   └── Task3_CSV_Data_Import/
+│       ├── task3_csv_database.py
+│       ├── users.csv
+│       └── users.db
 │
-├── Task2_Data_Processing_Visualization/
-│   └── task2_student_scores.py
-│
-├── Task3_CSV_Data_Import/
-│   ├── task3_csv_database.py
-│   ├── users.csv
-│   └── users.db
+├── PM-tasks/
+│   └── Accuknox AIML assignment 2.pdf
 │
 └── README.md
 ```
@@ -54,9 +61,9 @@ API-Data-Processing-Tasks/
 Each script uses paths relative to its own folder, so run it from inside that folder:
 
 ```bash
-cd Task1_API_Data_Retrieval && python task1_books.py
-cd Task2_Data_Processing_Visualization && python task2_student_scores.py
-cd Task3_CSV_Data_Import && python task3_csv_database.py
+cd AIML/Task1_API_Data_Retrieval && python task1_books.py
+cd AIML/Task2_Data_Processing_Visualization && python task2_student_scores.py
+cd AIML/Task3_CSV_Data_Import && python task3_csv_database.py
 ```
 
 Tasks 1 and 2 require an internet connection. Install the dependencies with:
