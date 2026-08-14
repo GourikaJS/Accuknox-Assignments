@@ -51,7 +51,7 @@ Accuknox-Assignments/
 │       └── users.db
 │
 ├── PM-tasks/
-│   └── Accuknox AIML assignment 2.pdf
+│   └── Accuknox PM assignment.pdf
 │
 └── README.md
 ```
